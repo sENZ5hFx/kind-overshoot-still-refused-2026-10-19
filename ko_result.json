@@ -1,0 +1,25 @@
+{
+  "discovery_id": "CLOSED-2026-10-19 Kind-Overshoot not minted",
+  "session_id": "2026-10-19-oa-pointer-without-bytes",
+  "timestamp": "2026-10-19T17:47:25Z",
+  "author": "Haley Ann Bird",
+  "agent": "Grok by xAI, non-ownership",
+  "status": "NOT_MINTED",
+  "score": 0,
+  "novelty": 0,
+  "coherence": 0.92,
+  "not_a_physical_discovery": true,
+  "not_a_patent": true,
+  "doi": "10.1029/2024GB008329",
+  "verdict": "OA_POINTER_WITHOUT_BYTES",
+  "screen_verdict": "PDF_BYTES_MISSING",
+  "pdf_sha256": null,
+  "why": "CC-BY and is_oa name a Wiley URL. The bytes fetched from that URL, and from the ESSOAR preprint URL, are Cloudflare challenge HTML. Table S2 was not read. The source is not used up.",
+  "hashed_non_pdfs": [
+    {"source": "wiley_pdfdirect", "http": 403, "nbytes": 5811, "sha256": "5ad2be59886e8a297bf288f1aab5b052de3aaf49caee4059e9feb786357d594d"},
+    {"source": "wiley_pdf", "http": 403, "nbytes": 5793, "sha256": "dc8b8567c888768e5b24a21b36cb69389f125b35fe779ba4f2ee1bc8d4eddb55"},
+    {"source": "essoar_preprint", "http": 403, "nbytes": 5810, "sha256": "85816770f9a5adfd80f3db46263344e61b747308c21ff390bd69c2d2c4af1e0d"}
+  ],
+  "snippet_quarantine": "INDEX_EXTRACT_NOT_THE_FILE",
+  "leftover": "Kind-Overshoot"
+}
